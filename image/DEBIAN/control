@@ -1,0 +1,8 @@
+Package: cpan-sqitch
+Version: 0.1.0-dev
+Section: database
+Maintainer: Ryan Sundberg <ryan@arctype.co>
+Architecture: arm64
+Description: Sqitch is a database change management application.
+Depends: sqlite3, libsqlite3-dev
+Priority: extra

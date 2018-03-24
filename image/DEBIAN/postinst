@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -e
+
+# Install sqitch
+export PERL_MM_USE_DEFAULT=1 
+cpan -T App::Sqitch DBD::SQLite
